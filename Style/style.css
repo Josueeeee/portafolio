@@ -121,7 +121,14 @@ h1, h2{
     
 }
 .conteiner-target{
-    display: inline-block;
+    display: flex;
+    text-align: center;
+    overflow-y: hidden; 
+    overflow-x: scroll;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
 }
 .target{
     width: 20rem;
@@ -133,6 +140,7 @@ h1, h2{
 }
 .target p{
     color: gray;
+    
 }
 
 
@@ -145,3 +153,4 @@ h1, h2{
     height: auto;
     white-space: nowrap;
     scrollbar-width: none; */
+
