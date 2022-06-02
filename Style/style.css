@@ -7,7 +7,7 @@ body{
     color: white;
     text-align: center;
 }
-h1{
+h1, h2{
     color: #35B0BF;
 }
 .hidden{
@@ -44,40 +44,104 @@ h1{
     cursor: pointer;
 }
 
-/* home */
+
+/* home background */
 .conteiner-home{
     display: flex;
     justify-content: center;
-    align-items: center;
-
-
+    align-items: top;
+    position: relative;
 }
 .bg-image{
-    position: relative;
     height: 300px;
     width: 300px;
     background-color: #2A2B3D;
     border-radius: 50%;
-    align-items: center;
-    justify-content: center
-}
-.home-col{  
-        display: flex;
-            padding: 1rem;
-        box-sizing: border-box;
-        z-index: 999;
-        background-color: red;
-}
-
-.presentacion{
-    position: absolute;
-    justify-content: left;
 }
 .image{
-    position: absolute;
-    justify-content: center;
+    width: 245px;
 }
-.exp{
+/* home-info */
+.home{
     position: absolute;
-    justify-content: right;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    width: 125%;
+    margin: 0%;
 }
+.home p{
+   margin: 0.2rem 0 0.2rem 0;
+}
+.presentacion{
+    align-items: flex-start;
+}
+.presentacion span{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.color-font{
+    color: #35B0BF;
+    font-weight: bolder;
+}
+.bg-social img{
+    padding: 0.3rem;
+    background-color: #D2CEC9;
+    border-radius: 50%;
+}
+/* seccion de links */
+.bgcontainer-link{
+    background-color: #2A2B3D;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+
+}
+.bgcontainer-link img{
+    width: 4rem;
+    background-color: #D2CECB;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.seccion{
+    margin: 2rem;
+    padding: 2rem;
+}
+/* Servicios */
+.bg{
+    background-image: url(../image/Ellipse\ 14.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 10rem;
+    
+}
+.conteiner-target{
+    display: inline-block;
+}
+.target{
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+    height: 20rem;
+    border-radius: 0.2rem;
+}
+.target p{
+    color: gray;
+}
+
+
+
+
+/* text-align: center;
+    overflow-y: hidden; 
+    overflow-x: auto;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    scrollbar-width: none; */

@@ -1,8 +1,44 @@
+@media (min-width: 600px) {
+  .home{
+    width: 70%;
+  }
+  .bgcontainer-link{
+    background-color: #2A2B3D;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1rem;
+
+}
+.bgcontainer-link img{
+    width: 4rem;
+    margin-right: 1rem;
+}
+.info{
+  width: 50rem;
+}
+.seccion-conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.seccion{
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  padding: 1.5rem;
+}
+.conteiner-target-col{
+  display: flex;
+  width: calc(100/12*3);
+  justify-content: center;
+  
+}
+
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 776px) {
     #nav li{
-
       display: inline-block;
   }
   .hidden{
@@ -20,10 +56,27 @@
 
   /* home */
 .conteiner-home{
-    padding: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
  }
-
+ .menu a:hover{
+  color: #35B0BF;
 }
+.bg-image{
+  height: 350px;
+  width: 350px;
+  background-color: #2A2B3D;
+  border-radius: 50%;
+}
+.image{
+  width: 295px;
+}
+.bgcontainer-link img{
+  width: 6rem;
+  margin-right: 1.5rem;
+}
+}
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -43,8 +96,51 @@
     .menu a{
         margin-right: 3rem;
     }
+    .conteiner-home{
+      display: flex;
+      justify-content: center;
+      align-items: top;
+      position: relative;
+      padding-bottom: 2rem;
+
+  }
+  .bg-image{
+      height: 400px;
+      width: 400px;
+      background-color: #2A2B3D;
+      border-radius: 50%;
+  }
+  .image{
+    width: 350px;
+}
+.home{
+  width: 70%;
+}
+.home p{
+  margin: 0.2rem 0 0.2rem 0;
+}
+.presentacion{
+   align-items: flex-start;
+   font-size: 1.5rem;
+}
+.presentacion span{
+   margin-bottom: 1rem;
+   border-bottom: 1px solid white;
+   font-size: 3.5rem;
+   font-weight: bolder;
+}
+.exp{
+  justify-content: left;
+  margin: 0%;
+}
+.bgcontainer-link img{
+  width: 8rem;
+  margin-right: 2rem;
+}
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  
+  .home{
+    width: 50%;
+  }
 }
